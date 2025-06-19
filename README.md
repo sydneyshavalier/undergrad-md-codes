@@ -10,4 +10,4 @@ densityprofile.f: This code plots the densities of both carbon and lithium atoms
 
 orientation.f: This code tracks the orientations of carbonate molecules in a simulation, and it does so by analyzing the angular orientation of the carbonate plane relative to the Cartesian axes (x, y, z) as a function of z-position in the simulation box. The resulting data is stored in a histogram which displays the orientation versus z when plotted in xmgrace.
 
-dipole.f: This code calculates the dipole moment of a NaCl system — specifically, it computes the instantaneous total dipole moment vector at each time step from a molecular dynamics trajectory.
+dipole.f: This code calculates the dipole moment of a NaCl system by computing the instantaneous total dipole moment vector at each time step from a molecular dynamics trajectory.
