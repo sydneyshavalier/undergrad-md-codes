@@ -1,0 +1,1 @@
+md.f:  The molecular dynamics code I used to perform simulations of molten alkali carbonates. I worked on Lennard-Jones parameterization and worked toward achieving molecular interactions that more closely resembled experimental data.
