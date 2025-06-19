@@ -9,3 +9,5 @@ diffusionk.f: This code calculates the mean squared displacement (MSD) of potass
 densityprofile.f: This code plots the densities of both carbon and lithium atoms in lithium carbonate as a function of z. I used histogram binning over a previously recorded molecular trajectory and plotted the results using xmgrace. 
 
 orientation.f: This code tracks the orientations of carbonate molecules in a simulation, and it does so by analyzing the angular orientation of the carbonate plane relative to the Cartesian axes (x, y, z) as a function of z-position in the simulation box. The resulting data is stored in a histogram which displays the orientation versus z when plotted in xmgrace.
+
+dipole.f: This code does calculates the dipole moment of a NaCl system — specifically, it computes the instantaneous total dipole moment vector at each time step from a molecular dynamics trajectory.
